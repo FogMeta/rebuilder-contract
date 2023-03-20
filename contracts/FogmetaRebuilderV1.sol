@@ -8,7 +8,7 @@ contract FogmetaRebuilderV1 is Ownable {
     event AddressBalance(address from, address to, uint amount);
 
     constructor() {
-        accountAddress = 0xBf4eF4147Aac5FD3C1F8b6b4B8c2F2A70Fb0efF1;
+        accountAddress = 0xbf3114b0ea950b4682c1736C740B5b5bC92a4752;
     }
 
     error InsufficientBalance(uint requested, uint available);
